@@ -185,7 +185,7 @@ func zipDir(source, target string) error {
 
 // Wrapper for opencc CLI
 func convertToTraditional(input string) (string, error) {
-	cmd := exec.Command("opencc", "-c", "s2hk.json")
+	cmd := exec.Command("opencc", "-c", "s2twp.json")
 	cmd.Stdin = strings.NewReader(input)
 	var out bytes.Buffer
 	cmd.Stdout = &out
