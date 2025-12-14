@@ -3,3 +3,8 @@ Icon?
 .DS_Store
 venv
 build
+
+input.png
+output.png
+favicon.ico
+output.ico
