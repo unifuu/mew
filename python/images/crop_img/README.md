@@ -1,7 +1,7 @@
-# Blur Image
+# Crop Image
 
 ```
-cd python/blur_img
+cd python/images/crop_img
 python3 -m venv venv
 source venv/bin/activate
 pip install pillow
